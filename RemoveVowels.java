@@ -10,7 +10,7 @@ class RemoveVowels
 		HashMap<Integer,Character> record = new HashMap<>();
 		String s2 = "aeuio";
 
-		for(char c:s2.toCharArray())
+		for(char c:s2.toCharArray()) //putting each charecter of String s2 in hashmap 
 		{
 			System.out.println(c);
 			if(record.containsValue(c) == false)
